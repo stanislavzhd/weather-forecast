@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #2b81ac;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+}
+
+.header {
+    background: #3399cc;
+    margin: 20px 20px 0 20px;
+    padding: 0 200px 0 200px;
+    border: none; 
+}
+
+h1 {
+    color: #ffffff ;
+    font-weight: normal;
+    width: 100%;
+    padding: 30px 0 30px 0;
+    margin: 0;
+}
+
+.wi {
+    font-size: 25px;
+}
+
+.main {
+    background: #3399cc;
+    margin: 0 20px 0 20px;
+    padding: 0;
+    border: none; 
+}
+
+.container {
+    padding: 0 200px 0 200px;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #ffffff; 
+    font-size: 0;
+}
+
+li {
+    transition: all .1s ease-in;
+    border: 4px solid white;
+    font-size: 18px;
+    height: 100px;
+    text-align: center;
+}
+
+.fifty {
+    display: inline-block;
+    width: 50%;  
+}
+
+.twenty_five {
+    display: inline-block;
+    width: 25%;
+}
+
+.one_hundred {
+    display: inline-block;
+    width: 100%;
+    border-top: none;
+}
+
+li.one {
+    background: #3399cc;
+    border-right: none;
+    border-bottom: none;
+}
+
+li.two {
+    background: #33cccc;
+    border-right: none;
+    border-bottom: none;
+}
+
+li.three {
+    background: #996699;
+    border-bottom: none;
+}
+
+li.four {
+    background: #c24747;
+    border-bottom: none;
+    border-right: none;
+}
+
+li.five {
+    background: #e2674a;
+    border-bottom: none;
+    border-right: none;
+}
+
+li.six {
+    background: #ffcc66;
+    border-bottom: none;
+    border-right: none;
+}
+
+li.seven {
+    background: #99cc99;
+    border-bottom: none;
+}
+
+li.eight {
+    background: #669999;
+    border-right: none;
+}
+
+li.nine {
+    background: #cc6699;
+    border-right: none;
+}
+
+li.ten {
+    background: #339966;
+}
+
+li.eleven {
+    background: #666699;
+}
+
+.icon {
+    margin: 15px;
+    color: white; 
+    opacity: .5; 
+}
+
+.footer {
+    background: #3399cc;
+    margin: 0 20px 20px 20px;
+    padding: 0 200px 0 200px;
+    border: none;
+}
+
+h3 {
+    color: #ffffff;
+    font-weight: normal;
+    width: 100%;
+    padding: 30px 0 30px 0;
+    margin: 0;
+}
+
+ul:hover {
+    transition: all .1s ease-in;
+    opacity: .8;
+}
+
+li:hover {
+    transition: all .1s ease-in;
+    opacity: 1; 
+    background: inherit; 
+}
